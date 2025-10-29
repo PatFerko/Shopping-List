@@ -1,0 +1,19 @@
+.rectangle {
+  background-color: rgba(156, 23, 76, 0.502); /* pink with 50% opacity */
+  padding: 1rem 2rem; /* vertical | horizontal padding */
+  border-radius: 8px; /* optional rounded corners */
+  display: inline-block; /* hugs the text */
+  color: white; /* text color inside the box */
+  text-align: center;
+}
+
+.priority-badge {
+  width: 40px; /* Width of the square */
+  height: 40px; /* Height of the square */
+}
+
+.priority {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
