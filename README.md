@@ -5,7 +5,7 @@
 A responsive JavaScript-based item management interface built with Bootstrap.  
 The application dynamically renders items from a data model and allows users to update priority levels, sort items, and reset state through interactive UI controls.
 
-![Shopping List Screenshot](images/homePage.png)
+![Shopping List Screenshot](./Images/homePage.png)
 
 ---
 
@@ -21,7 +21,7 @@ The application dynamically renders items from a data model and allows users to 
 - The UI is generated dynamically based on the data model, keeping the DOM in sync with application state.
 - User interactions (priority changes, sorting, resetting) update the data first and then re-render the interface.
 
-![Shopping List Screenshot](images/shoppingItems.png)
+![Shopping List Screenshot](./Images/shoppingItems.png)
 
 ---
 
@@ -39,7 +39,7 @@ The application dynamically renders items from a data model and allows users to 
 - Bootstrap cards and grid classes are used to ensure consistent layout across screen sizes.
 - UI updates are centralized through a render function to keep behavior predictable.
 
-![Shopping List Screenshot](images/footer.png)
+![Shopping List Screenshot](./Images/footer.png)
 
 ---
 
