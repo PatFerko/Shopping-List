@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -76,7 +76,7 @@
     <div
       class="hero-section align-items-center text-center position-relative"
       style="
-        background-image: url('Images/Header.jpg');
+        background-image: url(&quot;Images/Header.jpg&quot;);
         background-size: cover;
         background-position: center;
         height: 50vh;
@@ -89,22 +89,22 @@
         </div>
       </div>
     </div>
+    <div class="grid">
+      <div class="d-flex">
+        <div onclick="sortMe()" id="toSort">
+          <a href="#" class="btn btn-danger m-2">Sort</a>
+        </div>
+        <div onclick="resetMe()" id="toReset">
+          <a href="#" class="btn btn-primary m-2">Reset</a>
+        </div>
+      </div>
 
-    <div class="d-flex">
-      <div onclick="sortMe()" id="toSort">
-        <a href="#" class="btn btn-danger m-2">Sort</a>
-      </div>
-      <div onclick="resetMe()" id="toReset">
-        <a href="#" class="btn btn-primary m-2">Reset</a>
-      </div>
+      <div
+        id="container"
+        class="row justify-content-center"
+        style="margin-top: 2rem"
+      ></div>
     </div>
-
-    <div
-      id="container"
-      class="row justify-content-center"
-      style="margin-top: 2rem"
-    ></div>
-
     <div
       class="container-fluid bg-dark border-bottom border-body text-white"
       data-bs-theme="dark"
