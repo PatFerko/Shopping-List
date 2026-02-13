@@ -21,6 +21,8 @@ The application dynamically renders items from a data model and allows users to 
 - The UI is generated dynamically based on the data model, keeping the DOM in sync with application state.
 - User interactions (priority changes, sorting, resetting) update the data first and then re-render the interface.
 
+---
+
 ![Shopping List Screenshot](./Images/shoppingItems.png)
 
 ---
@@ -53,5 +55,5 @@ The application dynamically renders items from a data model and allows users to 
 
 ```bash
 git clone https://github.com/PatFerko/Shopping-List
-
+cd Shopping-List
 ```
