@@ -23,6 +23,8 @@ The application dynamically renders items from a data model and allows users to 
 
 ![Shopping List Screenshot](https://i.imgur.com/5tKyFsI.png)
 
+---
+
 ## Key Features & Logic
 
 - **Dynamic rendering** of Bootstrap cards from a JavaScript data structure
@@ -38,6 +40,8 @@ The application dynamically renders items from a data model and allows users to 
 - UI updates are centralized through a render function to keep behavior predictable.
 
 ![Shopping List Screenshot](https://i.imgur.com/bjBjRpa.png)
+
+---
 
 ## Challenges & Learnings
 
